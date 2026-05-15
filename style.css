@@ -156,5 +156,24 @@ footer{
     .hero h1{
     text-shadow:0 0 20px rgba(56,189,248,0.4);
     }
+html{
+    scroll-behavior:smooth;
+}
 
+.card{
+    border:1px solid #334155;
+    box-shadow:0 0 20px rgba(56,189,248,0.08);
+}
+
+.hero h1{
+    text-shadow:0 0 20px rgba(56,189,248,0.4);
+}
+
+.card:hover{
+    transform:translateY(-12px) scale(1.02);
+}
+
+.btn{
+    box-shadow:0 0 25px rgba(56,189,248,0.3);
+}
 }
